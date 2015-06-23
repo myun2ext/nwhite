@@ -80,3 +80,15 @@ h2 {
   border-right:  #ada solid 6px;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
+
+aside
+{
+  float: right;
+  margin: 10px;
+  margin-top: 70px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: #888 solid 1px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
