@@ -5,11 +5,12 @@ body{
   font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 }
 nav {
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   background-color: white;
   border-radius: 6px;
-  width: 70%;
+  width: 60%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
 ul {
   margin-left: 20px;
@@ -30,7 +31,7 @@ main {
 }
 article
 {
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   background-color: white;
   border-radius: 6px;
@@ -38,10 +39,11 @@ article
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 h2 {
-  margin: 20px;
+  margin: 30px;
   padding: 10px;
   padding-bottom: 6px;
-  background-color: #f6f6f6;
+  background-color: white;
   border-bottom: #888 solid 2px;
   border-right:  #ada solid 6px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
