@@ -1,26 +1,11 @@
+/*
+ * ============ Common ============ 
+ */
+
 *{margin:0;padding:0;}
 body{
   background-color: #f0f0f0;
   font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-}
-nav {
-  background-color: #111;
-  color: white;
-  padding: 1px 8px;
-}
-nav h1 {
-  font-size: 2em;
-}
-nav h1 a {
-  color: white;
-}
-nav.n {
-  margin: 30px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 6px;
-  width: 60%;
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
 }
 ul {
   margin-left: 20px;
@@ -34,14 +19,40 @@ a {
 a:hover {
   text-decoration: underline;
 }
-h1 {
+
+/*
+ * ============  Navigation ============ 
+ */
+nav {
+  background-color: #111;
+  color: white;
+  padding: 1px 8px;
 }
+nav h1 {
+  font-size: 2em;
+}
+nav h1 a {
+  color: white;
+}
+
+/*
+ * ============  Main ============ 
+ */
 main {
   width: 70%;
 }
+main h1 {
+  font-size: 1.9em;
+  color: #555;
+  padding: 3px;
+  height: 26px;
+}
+main .container {
+  padding: 20px;
+}
 article
 {
-  margin: 30px;
+  margin: 10px;
   padding: 20px;
   background-color: white;
   border-radius: 6px;
@@ -49,7 +60,7 @@ article
   box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
 h2 {
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
   padding-bottom: 6px;
   background-color: white;
