@@ -4,6 +4,25 @@ body{
   background-color: #f0f0f0;
   font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
 }
+nav {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+  width: 70%;
+}
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  font-size: 110%;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 h1 {
 }
 main {
