@@ -43,20 +43,20 @@ article
   box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
   max-width: 240px;
   vertical-align:top;
+  font-size: 0.8em;
+  line-height: 1em;
 }
 article img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 180px;
 }
 article h1 {
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: bold;
-  line-height: 1em;
   text-decoration: underline;
 }
 article p {
-  font-size: 0.8em;
   margin-top: 2px;
-  line-height: 1em;
 }
 
 aside
