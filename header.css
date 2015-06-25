@@ -1,0 +1,33 @@
+header nav {
+  background-color: #181818;
+  color: white;
+  padding: 1px 8px;
+  position: fixed;
+  width: 100%;
+}
+header nav h1 {
+  font-size: 2.04em;
+  float: left;
+}
+header nav a {
+  color: #f9f9f9;
+}
+header nav ul a {
+  color: #f1f1f1;
+}
+header nav ul {
+  margin-right: 16px;
+}
+header nav li {
+  padding: 12px;
+  font-size: 14px;
+  width: 60px;
+  text-align: center;
+}
+
+.profile {
+  position: absolute;
+}
+header article {
+  display: block;
+}

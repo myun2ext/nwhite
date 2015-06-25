@@ -20,3 +20,6 @@ a:hover {
 .right {
   float: right;
 }
+.hidden {
+  display: none;
+}
