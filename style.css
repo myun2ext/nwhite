@@ -1,43 +1,29 @@
 /*
- * ============ Common ============ 
- */
-
-*{margin:0;padding:0;}
-body{
-  background-color: #e2e2e2;
-  font-family: 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-}
-main ul {
-  margin-left: 20px;
-  list-style-type: disc;
-  font-size: 110%;
-}
-a {
-  color: #333;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-.right {
-  float: right;
-}
-/*
  * ============  Navigation ============ 
  */
-nav {
+ 
+header nav {
   background-color: #181818;
   color: white;
   padding: 1px 8px;
   position: fixed;
   width: 100%;
 }
-nav h1 {
+header nav h1 {
   font-size: 2.04em;
   float: left;
 }
-nav h1 a {
+header nav h1 a {
   color: #f9f9f9;
+}
+header nav ul {
+  margin-right: 16px;
+}
+header nav li {
+  padding: 12px;
+  font-size: 14px;
+  width: 60px;
+  text-align: center;
 }
 
 /*
@@ -45,6 +31,11 @@ nav h1 a {
  */
 main {
   width: 70%;
+}
+main ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  font-size: 110%;
 }
 main > h1 {
   font-size: 1.9em;
