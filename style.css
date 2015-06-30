@@ -15,10 +15,10 @@ main > h1 {
 main .container {
   padding: 20px;
 }
-@media screen and (min-width: 1090px){
+@media screen and (min-width: 900px){
   main .container {
     float: left;
-    width: 77%;
+    width: 79%;
   }
 }
 h2 {
